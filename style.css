@@ -1,0 +1,26 @@
+/**
+ * Google Fonts Demo
+ **/
+
+/* Add in the Google Fonts of your choice */
+
+@font-face {
+    font-family: 'ukgoogle';
+    src: url(./font/SedgwickAve-Regular.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: ukgoogle;
+}
+
+p {
+    font-family: ukgoogle;
+    font-size: medium;
+    line-height: 20px;
+}
+
+body {
+    background-color: antiquewhite;
+}
